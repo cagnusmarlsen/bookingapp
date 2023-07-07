@@ -1,0 +1,51 @@
+.homesList {
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+
+.homesListItem {
+    width: 100%;
+    cursor: pointer;
+}
+
+.homesListItem>img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.homesListItem > h1 {
+    font-size: 16px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-weight: 700;
+}
+
+.homesListItem > h2 {
+    padding-bottom: 3px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.homesListRating {
+    align-items: center;
+    gap: 8px;
+    display: flex;
+    padding-top: 5px;
+ 
+}
+.homesListRating > button {
+    padding: 0;
+    background-color: #003B95;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+} 
+
+.homesListRating > span {
+    font-size: 12px;
+}
