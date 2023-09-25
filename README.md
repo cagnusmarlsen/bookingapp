@@ -1,1 +1,2 @@
-# bookingapp
+# Booking App
+Booking app frontend
